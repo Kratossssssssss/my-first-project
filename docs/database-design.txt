@@ -1,0 +1,11 @@
+JOB & INTERNSHIP TRACKER
+
+TABLES:
+
+1. Users
+
+2. Applications
+
+3. Interviews
+
+4. Notes
