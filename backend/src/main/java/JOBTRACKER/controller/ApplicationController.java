@@ -1,5 +1,6 @@
 package JOBTRACKER.controller;
 
+import org.springframework.web.bind.annotation.CrossOrigin;
 import jakarta.validation.Valid;
 import JOBTRACKER.Application;
 import JOBTRACKER.service.ApplicationService;
@@ -7,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:5173")
 @RestController
 @RequestMapping("/api/applications")
 public class ApplicationController {

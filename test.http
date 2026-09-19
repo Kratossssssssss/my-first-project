@@ -1,15 +1,2 @@
-POST http://localhost:8080/api/applications
-Content-Type: application/json
-
-{
-  "userId": 1,
-  "company": "Deloitte",
-  "jobTitle": "Software Engineer Intern",
-  "location": "Bangalore",
-  "jobType": "Internship",
-  "applicationDate": "2026-09-09",
-  "status": "APPLIED",
-  "jobUrl": "https://example.com/deloitte",
-  "salary": 45000.00,
-  "notes": "Applied through careers portal"
-}
+### Verify deletion
+GET http://localhost:8080/api/applications
